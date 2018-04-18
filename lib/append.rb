@@ -1,3 +1,4 @@
 def append(arr, int)
-    return arr << int
+    output = arr.dup
+    return output << int
 end
