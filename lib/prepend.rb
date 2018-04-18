@@ -1,4 +1,4 @@
-def append(arr, int)
+def prepend(arr, int)
     output = [int]
     i = 0
     while i < arr.length
