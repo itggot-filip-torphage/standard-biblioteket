@@ -1,4 +1,7 @@
 def ends_with(str, cha)
-    return true if str[-1] == cha
-    return false
+    if str[-1] == cha
+        return true
+    else
+        return false
+    end
 end
